@@ -1,7 +1,7 @@
 {
-	"ImportPath": "github.com/leeeboo/wechat",
-	"GoVersion": "go1.7",
-	"GodepVersion": "v74",
+	"ImportPath": "wechat",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
 	"Deps": [
 		{
 			"ImportPath": "github.com/clbanning/mxj",
@@ -10,6 +10,10 @@
 		{
 			"ImportPath": "github.com/fatih/structs",
 			"Rev": "dc3312cb1a4513a366c4c9e622ad55c32df12ed3"
+		},
+		{
+			"ImportPath": "github.com/leeeboo/wechat/wx",
+			"Rev": "ab40150692583e1b1be78d98e943051293441d4a"
 		}
 	]
 }

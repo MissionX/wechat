@@ -10,8 +10,8 @@ import (
 
 const (
 	logLevel = "dev"
-	port     = 8081
-	token    = "kosfe9rtue9r1"
+	port     = 80
+	token    = "5e06eb19d89c9f8412e9166bb11aa0eb"
 )
 
 func get(w http.ResponseWriter, r *http.Request) {
