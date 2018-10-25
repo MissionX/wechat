@@ -117,7 +117,7 @@ func (this *WeixinClient) text() {
 	var reply TextMessage
 
 	reply.InitBaseData(this, "text")
-	reply.Content = value2CDATA(fmt.Sprintf("我收到的是：%s", inMsg))
+	reply.Content = value2CDATA(fmt.Sprintf("echo test：%s", inMsg))
 
 	replyXml, err := xml.Marshal(reply)
 
